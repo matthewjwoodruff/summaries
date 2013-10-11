@@ -1,3 +1,5 @@
+# Generating Objectives: Can Decision Makers Articulate What They Want?
+
 ```
 @article{bond_2008_generating_objectives,
     title={Generating Objectives: Can Decision Makers Articulate What They Want?},
