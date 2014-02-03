@@ -20,56 +20,35 @@ An interesting representation inspired by biological cell division has emerged, 
 
 
 
-Research Paper
-Parameter-free optimum design method of stiffeners on thin-walled structures
+## Parameter-free optimum design method of stiffeners on thin-walled structures
 Yang Liu, Masatoshi Shimoda Pages 39-47
-Download PDF (3575KB) View Article
 
-Research Paper
-Rules for trajectory updating in decision based design
+## Rules for trajectory updating in decision based design
 Vijitashwa Pandey, Zissimos P. Mourelatos Pages 49-57
-Download PDF (2166KB) View Article
 
-Research Paper
-Thermal-composite design optimization for heat flux shielding, focusing, and reversal
-Ercan M. Dede, Tsuyoshi Nomura...¦ Pages 59-68
-Download PDF (1203KB) View Article
+## Thermal-composite design optimization for heat flux shielding, focusing, and reversal
+Ercan M. Dede, Tsuyoshi Nomura... Pages 59-68
 
-Research Paper
-Stochastic minimax optimal control strategy for uncertain quasi-Hamiltonian systems using stochastic maximum principle
+## Stochastic minimax optimal control strategy for uncertain quasi-Hamiltonian systems using stochastic maximum principle
 R. C. Hu, Z. G. Ying, W. Q. Zhu Pages 69-80
-Download PDF (1038KB) View Article
 
-Research Paper
-Structural topology optimization on dynamic compliance at resonance frequency in thermal environments
+## Structural topology optimization on dynamic compliance at resonance frequency in thermal environments
 Xiongwei Yang, Yueming Li Pages 81-91
-Download PDF (993KB) View Article
 
-Research Paper
-Optimal design of elastic plastic frames accounting for seismic protection devices
-Salvatore Benfratello, Luigi Palizzolo...¦ Pages 93-106
-Download PDF (845KB) View Article
+## Optimal design of elastic plastic frames accounting for seismic protection devices
+Salvatore Benfratello, Luigi Palizzolo... Pages 93-106
 
-Research Paper
-Direct gradient projection method with transformation of variables technique for structural topology optimization
-Cheng Chang, Andrew Borgart, Airong Chen...¦ Pages 107-119
-Download PDF (1435KB) View Article
+## Direct gradient projection method with transformation of variables technique for structural topology optimization
+Cheng Chang, Andrew Borgart, Airong Chen... Pages 107-119
 
-Research Paper
-Structural dynamic topology optimization based on dynamic reliability using equivalent static loads
+## Structural dynamic topology optimization based on dynamic reliability using equivalent static loads
 Ming Li, Wencheng Tang, Man Yuan Pages 121-129
-Download PDF (627KB) View Article
 
-Industrial Application
-Design optimization of a laser printer cleaning blade for minimizing permanent set
-Chang-Hyun Park, Jun-Hee Lee, Jae-Hyuk Jeong...¦ Pages 131-145
-Download PDF (1088KB) View Article
+## Design optimization of a laser printer cleaning blade for minimizing permanent set
+Chang-Hyun Park, Jun-Hee Lee, Jae-Hyuk Jeong... Pages 131-145
 
-Industrial Application
-Factor screening and multivariable crashworthiness optimization for vehicle side impact by factorial design
-Shujuan Hou, Tangying Liu, Duo Dong...¦ Pages 147-167
-Download PDF (1626KB) View Article
+## Factor screening and multivariable crashworthiness optimization for vehicle side impact by factorial design
+Shujuan Hou, Tangying Liu, Duo Dong... Pages 147-167
 
-Research Paper
-A comparison between optimization-based human motion prediction methods: data-based, knowledge-based and hybrid approaches
-Ilaria Pasciuto, Sergio Ausejo...¦
+## A comparison between optimization-based human motion prediction methods: data-based, knowledge-based and hybrid approaches
+Ilaria Pasciuto, Sergio Ausejo...
