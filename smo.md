@@ -4,6 +4,19 @@
 
  *February 3, 2014*
 
+## Global Summary
+
+These issues (Nov 2013 - Jan 2014) are largely concerned with topology optimization.
+This is a field dominated by a gradient method (MMA).
+Other techniques get occasional notice: SQP, interior point methods, PSO and GA.
+One paper used DE and CMAES (good on them!)
+PSO seems to get some customization.
+Not really what I was expecting.
+Maybe these issues are overrepresenting the "structural" and underrepresenting the "multidisciplinary" aspect.
+
+
+## Note
+
 I've copy-pasted the TOC and I'm adding some comments to each article to get a feel for where the community is.
 I'm trying to figure out how the community sees optimization (as something to be researched / improved, or as a tool on the shelf), and what they're using in general.
 
@@ -107,13 +120,15 @@ Talk about your *seriously* hard problems.
 
 ### Summary
 
-Oooh, this one has a "Discussion" and "Authors' Reply".
-An academic cage fight!
-
 The product family article by Chowdhury, Messac, and Khire is especially good.
+So is the de Paly et al paper, which is about hydrogeology and might almost have come from the Reed group, based on its figures.
 
 I'm seeing a lot of discrete problems in this issue.
 And no agreement about how to do them.
+
+There's a fight between Rozvany and Logo in these pages.
+Rozvany lays it down pretty hard, Logo's position appears demolished.
+
 
 ### Topology optimization approaches
  *Ole Sigmund, Kurt Maute Pages 1031-1055*
@@ -181,21 +196,189 @@ A PMBGA, I believe.
 ### A modified directed search domain algorithm for multiobjective engineering and design optimization
  *Tohid Erfani, Sergey V. Utyuzhnikov... Pages 1129-1141*
 
+Directed search domain (DSD) is an optimization algorithm.
+"Exploits anchor points which are the minima of each objective."
+Ouch, that's going to hurt if you want to fill in the middle.
+Reading on...
+NNC and NBI work by reducing the design space.
+
+DSD does affine transformations on the objectives!?
+Anyway, this is a paper about a classical optimization approach for multi-objective problems.
+
 ### Modelling and shape optimization of an actuator
  *Charles-Henri Bruneau, Frédéric Chantalat... Pages 1143-1151*
+
+Optimize an actuator for flow profile at the exit section.
+Navier-Stokes.
+MEMS active flow control.
+
+But this is really another topo optimization paper.
+Citing Bendsoe and Sigmund's 2003 SIMP paper is a dead giveaway.
+Key challenge is that the target flow is expressed statially, but the actual flow is dynamic.
+
+Iterative with stopping conditions.
 
 ### Optimization under worst case constraints...a new global multimodel search procedure
  *Michael de Paly, Claudius M. Bürger... Pages 1153-1172*
 
+Interesting that they pull in a hydrogeology problem.
+More efficient robust design.
+Optimal remediation for an uncertain contaminant plume.
+Cites a paper from Minsker.
+As well as the Nicklow 2010 paper that Pat is on.
+
+Computational efficiency is attained by trying to evaluate only the "critical realizations", i.e., the ones that are most likely to result in constraint violations.
+Basially, you're optimizing a set of critical realizations at the same time as you're optimizing your problem.
+They do Bayesian updating to keep super-realizations from dominating after the search has moved on.
+
+The problem: optimal well capture.
+They tried different stack-ordering approaches as well as different optimizers (DE, CMAES).
+They made some very familiar looking shaded-rectangle figures.
+They used the EvA2 optimization framework.  (What is that?)
+
+Anyway, this is interesting because they're basically doing auto-adaptive updates to the ensemble.
+And because they chose decent optimization algorithms.
+The downside is that they're talking about something that means two solutions might be compared based on evaluation of different states of the world.
+
+
 ### Equivalence of continuum and discrete analytic sensitivity methods for nonlinear differential equations
  *Shaobin Liu, Robert A. Canfield Pages 1173-1188*
+
+This is for finding derivatives so that you can use gradient based methods.
 
 ### Discussion on the optimization problem formulation of flexible components in multibody systems
  *Emmanuel Tromme, Olivier Brüls... Pages 1189-1206*
 
+Interesting setup in the abstract --- comparing optimization approaches for problems with dynamic loading, like robot arms.
+Modeling has lately merged MBS and FE, with optimization for dynamics approximated by doing multiple static loads.
+Gradient based methods need derivatives, which is computationally efficient unless you're doing, say, a feasibility study.
+MMA is likely to be inappropriate.
+
+Problem: optimize the widths of two robot arms for a 2-dof robot.
+Optimization with ConLin, GCM, SQP.
+Different algorithms don't converge to the same point.
+ConLin gives better results.
+
+They also did GA and surrogate-based optimization (SBO), also with GA.
+And guess what, GA doesn't do so great.
+(They were actually using GA, I think.
+As in *Goldberg's* GA, the one that's been firmly obsolete for over a decade.)
+They note that GA might do better with a tuning of algorithm parameters.
+
+Boss Quattro?  Some kind of optimization... something.
+
+Second problem: connecting rod.
+280s for one simulation with a fine mesh.
+Looks like they didn't touch GA for this one.
+
+
 ### On the optimal layout of structures subjected to probabilistic or multiply loading
  *János Lógó Pages 1207-1212*
+
+Robust topo optimization.
+Using math programming, I think.
+(This one is just a "discussion".)
 
 ### Critical examination of recent assertions by Logo (2013) about the paper ...Analytical and numerical solutions for a reliability based benchmark example (Rozvany and Maute 2011)
  *George Rozvany, Kurt Maute Pages 1213-1220*
 
+They're fighting about a "probabilistic topology benchmark example".
+They claim to have proved that a probabilistic problem is equivalent to a deterministic problem with two alternative load conditions.
+Their argument makes sense as long as you agree with their assumption that you're interested in the two points of maximum compliance.
+Oooh, they call the other guy "incoherent".
+That's not pulling any punches!
+
+Giving the benefit of the doubt, it reads like a case of people talking past each other.
+The authors have set up a situation where deterministic analysis applies, and they see the criticism as unfounded attacks on their (correct) mathematics.
+It sounds like the other guy wants to make a (valid) point that such special cases aren't representative, but he made a crucial mistake in attacking the authors on their quite well-founded derivations.
+Maybe not, though.
+This response gives him such a thorough thrashing that I have a hard time seeing how he could justify his work.
+
+## Volume 48, Issue 5, November 2013
+
+I forgot to download the TOC for this issue, so these are missing page numbers.
+
+### Summary
+
+After reading three issues of SMO, I'm finding that it's a lot more structural and a lot less multidisciplinary than I expected.
+Topology optimization and its kin are getting most of the attention.
+
+### Towards a space reduction approach for efficient structural shape optimization
+ *Balaji Raghavan , Piotr Breitkopf , Yves Tourbier , Pierre Villon*
+
+Shape optimization, design space reduction.  Morphing.  Gradient based optimization.
+
+### George Rozvany and Tomasz Lewinski (eds): Topology optimization in structural and continuum mechanics
+ *Noemi Friedman , Vanda Pomezanski , Erika Pinter*
+
+Book review.
+The book is a compilation of lecture notes on topo optimization.
+The lesson to take away from this is that topo optimization is a hot topic in SMO, in case you hadn't noticed.
+
+### Rankine's Theorem for the design of cable structures
+ *Alessandro Beghini , Lauren L. Beghini , Joshua A. Schultz , Juan Carrion , William F. Baker*
+
+Visual search.  Cable nets of maximum stiffness.
+Lit review goes back to the 17th century, which is neat.
+
+Optimization using `fmincon`.
+
+### Shape optimization of the stokes flow problem based on isogeometric analysis
+ *Byong-Ug Park , Yu-Deok Seo , Ole Sigmund , Sung-Kie Youn*
+
+Shape optimization.  Gradient based.
+
+### Optimal design of laminate composite isogrid with dynamically reconfigurable quantum PSO
+ *K. Lakshmi , A. Rama Mohan Rao*
+
+They invented a new PSO to optimize the design of a stiffened laminate composite cylinder.
+It's "quantum" in that the particles have indeterminate position.
+(Doesn't that mean a lot more function evals in practice?)
+They appear to have done only one run of each algorithm.
+And single-objectice (normalized price) only.
+
+###Design of in-plane piezoelectric sensors for static response by simultaneously optimizing the host structure and the electrode profile
+ * D. Ruiz , J. C. Bellido , A. Donoso , J. L. Sanchez-Rojas*
+
+They use MMA.
+
+### Density filters for topology optimization based on the Pythagorean means
+ *Krister Svanberg , Henri Svard*
+
+More fuzzy trusses.
+
+MMA.
+
+### Vibration reduction by natural frequency optimization for manipulation of a variable geometry truss
+ *Atsuhiko Senba , Kosuke Oka , Morio Takahama , Hiroshi Furuya*
+
+Motion planning so as not to excite harmonics in a truss.
+SQP, although they mention that maybe PSO or GA would be appropriate.
+
+###Time-dependent reliability analysis with joint upcrossing rates
+ *Zhen Hu , Xiaoping Du*
+
+Reliability analysis.
+Compares some other methods to monte-carlo simulation.
+Poisson assumption is not always right.
+(A good point!)
+
+### Near-optimal solutions for two point loads between two supports
+ *Carlos Olmedo Rojas , Mariano Vazquez Espi, Jaime Cervera Bravo , Carlos Vazquez Espi*
+
+Analytical plus simulated annealing.
+
+### Optimum design of grillage structures to LRFD-AISC with teaching-learning based optimization
+ *Tayfun Dede*
+
+Made up a single objective metaheuristic based on a teacher-student analogy.
+
+### Isogeometric shape optimization in fluid mechanics
+ *Peter Nørtoft , Jens Gravesen*
+
+Shape optimization.  Iterative, gradient-based, non-linear optimizer.
+
+### Optimization of stresses in a local region for the maximization of sensitivity and minimization of cross-sensitivity of piezoresistive sensors
+ *Qi Xia , Tielin Shi , Shiyuan Liu , Michael Yu Wang*
+
+Gradient-based, level set.
