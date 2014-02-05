@@ -170,7 +170,7 @@ A new commonality index.
 PSO.
 This is good stuff.
 Tim is the first person they cite.
-Another example of finding the feasible set of possible platforms first, here at greate computational expense.
+Another example of finding the feasible set of possible platforms first, here at great computational expense.
 (What that means is just that the platforms are non-contradictory, i.e., that $x_j$ is common for products A and B, and for products B and C, so it must also be common for A and C.
 It is a problem arising from representation.)
 
@@ -184,6 +184,11 @@ This was developed by Chowdhury.
 Holy crow, they did the electric motor problem.
 2, 4, and 6 motors.
 And they compare the results to Tim's 2006 book chapter.
+
+ *Now that I think of it, I'm not sure that the enumeration of possible platform combinations is really necessary.
+Like I said, it's about representation.
+If you have a platform-membership variable for each of N products, and that variable is an integer taking on N possible values, then you cannot produce contradictions.
+I don't think this introduces more variables than their approach.*
 
 ### Aircraft morphing wing design by using partial topology optimization
  *S. Sleesongsom, S. Bureerat, K. Tai Pages 1109-1128*
