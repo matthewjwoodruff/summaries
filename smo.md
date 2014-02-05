@@ -236,7 +236,7 @@ They tried different stack-ordering approaches as well as different optimizers (
 They made some very familiar looking shaded-rectangle figures.
 They used the EvA2 optimization framework.
 EvA2 is [http://www.ra.cs.uni-tuebingen.de/software/EvA2/introduction.html].
-Not surprisingly, they wrote it.
+Not surprisingly, their colleagues wrote it.
 It's Java-based, has a number of SO and MO optimizers built in.
 Docs, and presumably the framework, written Marcel Kronfeld under Prof. Dr. Andreas Zell.
 
@@ -269,7 +269,13 @@ And guess what, GA doesn't do so great.
 As in *Goldberg's* GA, the one that's been firmly obsolete for over a decade.)
 They note that GA might do better with a tuning of algorithm parameters.
 
-Boss Quattro?  Some kind of optimization... something.
+Boss Quattro?  A proprietary multidisciplinary analysis framework that includes several optimizers.
+So the interesting thing here is that *these* are actually the people I'm looking for.
+They took some algorithms off the shelf and used them.
+It's also interesting that they took more than one and compared them.
+(A similar product, I think, to Boss Quattro is ModeFrontier.
+The interesting thing they have in common is that they're all-in-one.
+They integrate analysis like DOE, factor screening, sensitivity, and metamodeling, with optimization.)
 
 Second problem: connecting rod.
 280s for one simulation with a fine mesh.
