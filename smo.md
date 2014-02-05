@@ -385,6 +385,15 @@ Gradient-based, level set.
 
 ## Volume 48, Issue 4, October 2013
 
+### Summary
+
+I'm glad I went back to October.  A fair number of topo optimization papers, but also a good mix of others.
+Including two good ones from Mattson's direction.
+I'm definitely not finding what I expected, especially now that I'm looking at the papers where I expected to find it.
+And that is, I was expecting to see NSGAII get used like a swiss-army knife, without much reflection.
+But what I'm actually seeing is people making up new optimization techniques left and right.
+Contrasted with topo optimization, where MMA rules the day.
+
 ### Note
 
 I'm done reading topo optimization papers for now.
