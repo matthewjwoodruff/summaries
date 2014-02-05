@@ -382,3 +382,93 @@ Shape optimization.  Iterative, gradient-based, non-linear optimizer.
  *Qi Xia , Tielin Shi , Shiyuan Liu , Michael Yu Wang*
 
 Gradient-based, level set.
+
+## Volume 48, Issue 4, October 2013
+
+### Note
+
+I'm done reading topo optimization papers for now.
+I'm marking them "FT", for fuzzy trusses and skipping over them.
+
+### A critical comparative assessment of differential equation-driven methods for structural topology optimization
+ *Arun L. Gain, Glaucio H. Paulino Pages 685-710*
+
+FT
+
+### A mesh evolution algorithm based on the level set method for geometry and topology optimization
+ *Grégoire Allaire, Charles Dapogny    Pages 711-715*
+
+FT
+
+### On the similarities between micro/nano lithography and topology optimization projection methods
+ *Miche Jansen, Boyan S. Lazarov    Pages 717-730*
+
+FT
+
+### Stiffening of restrained thermal structures via topology optimization
+ *Joshua D. Deaton, Ramana V. Grandhi Pages 731-745*
+
+FT
+
+### An optimization-based method for designing modular systems that traverse dynamic s-Pareto frontiers
+ *P. K. Lewis, C. A. Mattson Pages 747-762*
+
+Good stuff.  Changing preferences yield changing Pareto frontiers.
+Should read in more detail.
+
+### The smart normal constraint method for directly generating a smart Pareto set
+ *B. J. Hancock, C. A. Mattson Pages 763-775*
+
+Direct generation of (smart, i.e., interesting) Pareto optimal points.
+Optimize many single objective problems.
+Uses gradient methods but doesn't have to.
+Maybe I'm misreading this, but it sounds expensive for many-objective cases.
+
+### Determination of realistic worst imperfection for cylindrical shells using surrogate model
+ *Bo Wang, Peng Hao, Gang Li, Yaochu Fang    Pages 777-794*
+
+Interesting, they do surrogate based optimization, and they use a multi-island GA.
+That's pretty solid.
+
+### Stacking sequence optimization with genetic algorithm using a two-level approximation
+ *Shenyan Chen, Zhiwei Lin, Haichao An    Pages 795-805*
+
+Laminates.
+I think they have the GA determining what layers, and then a classical optimization method figuring out the optimal thickness for each ply.
+
+### A hyper-heuristic approach to aircraft structural design optimization
+ *Jonathan G. Allen, Graham Coates    Pages 807-819*
+
+Conceptual aircraft design.
+I went to a talk on hyper-heuristics once and concluded that the whole idea was BS.
+But I think that was a bad talk, because this is making considerably more sense.
+This approach allows more heterogeneity than Borg.
+However, it tries to parameterize the different heuristics, which I see as a misstep.
+It takes a lot of information to auto-adapt parameters.  Probably more than you've got.
+At the "hyper" level, it's doing reinforcement learning.
+
+Anyhow, much respect.  They've got way more DVs (17!) than the GAA problem, and an FE model to boot.
+Although, it's not a product family, so I've got that going for me.
+
+### Adaptive heuristic search algorithm for discrete variables based multi-objective optimization
+ *Long Tang, Hu Wang, Guangyao Li    Pages 821-836*
+
+A new metamodeling / multi-objective optimization approach.
+Compares with NSGAII.
+Didn't notice evidence of random seed analysis.
+Metamodels for problems with discrete variables.
+
+### Design optimization of balloon-expandable coronary stent
+ *Hongxia Li, Xicheng Wang Pages 837-847*
+
+Kriging, ANSYS.
+
+### On the allowance for support costs in Prager-Rozvany's optimal layout theory
+ *Mariano Vázquez Espí Pages 849-852*
+
+FT
+
+### Exact truss topology optimization for external loads and friction forces
+ *Tomasz Soko, George I. N. Rozvany Pages 853-857*
+
+FT
