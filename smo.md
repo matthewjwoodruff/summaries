@@ -234,7 +234,11 @@ They do Bayesian updating to keep super-realizations from dominating after the s
 The problem: optimal well capture.
 They tried different stack-ordering approaches as well as different optimizers (DE, CMAES).
 They made some very familiar looking shaded-rectangle figures.
-They used the EvA2 optimization framework.  (What is that?)
+They used the EvA2 optimization framework.
+EvA2 is [http://www.ra.cs.uni-tuebingen.de/software/EvA2/introduction.html].
+Not surprisingly, they wrote it.
+It's Java-based, has a number of SO and MO optimizers built in.
+Docs, and presumably the framework, written Marcel Kronfeld under Prof. Dr. Andreas Zell.
 
 Anyway, this is interesting because they're basically doing auto-adaptive updates to the ensemble.
 And because they chose decent optimization algorithms.
