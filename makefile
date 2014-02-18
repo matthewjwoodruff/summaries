@@ -1,4 +1,4 @@
-all: README.md summaries/smo.md summaries/jmd.md summaries/barthelemy_haftka_1993_approximation_concepts.md summaries/bond_2008_generating_objectives.md
+all: README.md summaries/smo.md summaries/jmd.md summaries/barthelemy_haftka_1993_approximation_concepts.md summaries/bond_2008_generating_objectives.md summaries/moore_2012_valuebased.md
 
 README.md: src/README.md src/license.html
 	pandoc -i src/README.md -o README.html --bibliography src/bibliography.bib
@@ -19,6 +19,10 @@ summaries/barthelemy_haftka_1993_approximation_concepts.md: src/license.html src
 summaries/bond_2008_generating_objectives.md: src/license.html src/bibliography.bib src/bond_2008_generating_objectives.md
 	pandoc -i src/bond_2008_generating_objectives.md -o bond_2008_generating_objectives.html --bibliography src/bibliography.bib
 	pandoc -i bond_2008_generating_objectives.html src/license.html -o summaries/bond_2008_generating_objectives.md -t markdown_github
+
+summaries/moore_2012_valuebased.md: src/moore_2012_valuebased.md src/license.html
+	pandoc -i src/moore_2012_valuebased.md -o moore_2012_valuebased.html --bibliography src/bibliography.bib
+	pandoc -i moore_2012_valuebased.html src/license.html -o summaries/moore_2012_valuebased.md -t markdown_github
 
 clean:
 	rm -f README.md README.html
