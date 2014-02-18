@@ -20,10 +20,10 @@ has a good discussion of how to cite web pages.  The following example may be us
 
 # Contents
 
-[summaries/smo.md](smo.md)
+[smo.md](summaries/smo.md)
 : Quick summaries from recent issues of *Structural and Multidisciplinary Optimization*.
 
-[summaries/jmd.md](jmd.md)
+[jmd.md](summaries/jmd.md)
 : Quick summaries from recent issues of the *Journal of Mechanical Design*.
 
 

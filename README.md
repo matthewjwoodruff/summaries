@@ -17,9 +17,9 @@ I strongly encourage you to read the originals --- I make no guarantee that my n
 Contents
 ========
 
-[summaries/smo.md](smo.md) : Quick summaries from recent issues of *Structural and Multidisciplinary Optimization*.
+[smo.md](summaries/smo.md) : Quick summaries from recent issues of *Structural and Multidisciplinary Optimization*.
 
-[summaries/jmd.md](jmd.md) : Quick summaries from recent issues of the *Journal of Mechanical Design*.
+[jmd.md](summaries/jmd.md) : Quick summaries from recent issues of the *Journal of Mechanical Design*.
 
 License
 -------
