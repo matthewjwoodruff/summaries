@@ -1,14 +1,6 @@
 # Generating Objectives: Can Decision Makers Articulate What They Want?
 
-```
-@article{bond_2008_generating_objectives,
-    title={Generating Objectives: Can Decision Makers Articulate What They Want?},
-    author={Samuel D. Bond and Kurt A. Carlson and Ralph L. Keeney},
-    year = 2008,
-    journal = {Management Science},
-    volume = 54, number = 1, pages = {56--70}
-}
-```
+Cite [@bond_2008_generating_objectives].
 
 "Overall, our research suggests that decision makers are considerably deficient in utilizing personal knowledge and values to form objectives for the decisions they face."
 

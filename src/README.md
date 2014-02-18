@@ -20,13 +20,25 @@ has a good discussion of how to cite web pages.  The following example may be us
 
 # Contents
 
+## Journal Scans
+
+These summarize recent issues of a journal.
+
 [smo.md](summaries/smo.md)
 : Quick summaries from recent issues of *Structural and Multidisciplinary Optimization*.
 
 [jmd.md](summaries/jmd.md)
 : Quick summaries from recent issues of the *Journal of Mechanical Design*.
 
+## Individual Articles
 
+These are summaries of individual articles.
+
+[Barthelemy and Haftka, 1993](summaries/barthelemy_haftka_1993_approximation_concepts.md)
+: A review paper covering approximations in structural optimization.
+
+[Bond et al, 2008](summaries/bond_2008_generating_objectives.md)
+: People are bad at expressing what it is they want, and they might not even know.
 
 <!--
 vim:ts=4:sw=4:expandtab
