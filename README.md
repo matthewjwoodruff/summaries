@@ -14,11 +14,8 @@ I strongly encourage you to read the originals --- I make no guarantee that my n
         howpublished = {https://github.com/matthewjwoodruff/summaries},
         note = {Accessed: yyyy-mm-dd}
 
-Contents
-========
-
 Journal Scans
--------------
+=============
 
 These summarize recent issues of a journal.
 
@@ -27,13 +24,18 @@ These summarize recent issues of a journal.
 [jmd.md](summaries/jmd.md) : Quick summaries from recent issues of the *Journal of Mechanical Design*.
 
 Individual Articles
--------------------
+===================
 
 These are summaries of individual articles.
 
 [Barthelemy and Haftka, 1993](summaries/barthelemy_haftka_1993_approximation_concepts.md) : A review paper covering approximations in structural optimization.
 
 [Bond et al, 2008](summaries/bond_2008_generating_objectives.md) : People are bad at expressing what it is they want, and they might not even know.
+
+Citations Source
+================
+
+I've put some of the citations in a [BibTeX database](src/bibliography.bib).
 
 License
 -------

@@ -18,9 +18,7 @@ has a good discussion of how to cite web pages.  The following example may be us
     note = {Accessed: yyyy-mm-dd}
 ```
 
-# Contents
-
-## Journal Scans
+# Journal Scans
 
 These summarize recent issues of a journal.
 
@@ -30,7 +28,7 @@ These summarize recent issues of a journal.
 [jmd.md](summaries/jmd.md)
 : Quick summaries from recent issues of the *Journal of Mechanical Design*.
 
-## Individual Articles
+# Individual Articles
 
 These are summaries of individual articles.
 
@@ -39,6 +37,10 @@ These are summaries of individual articles.
 
 [Bond et al, 2008](summaries/bond_2008_generating_objectives.md)
 : People are bad at expressing what it is they want, and they might not even know.
+
+# Citations Source
+
+I've put some of the citations in a [BibTeX database](src/bibliography.bib).
 
 <!--
 vim:ts=4:sw=4:expandtab

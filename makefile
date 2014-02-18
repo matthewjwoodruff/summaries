@@ -1,14 +1,14 @@
 all: README.md summaries/smo.md summaries/jmd.md summaries/barthelemy_haftka_1993_approximation_concepts.md summaries/bond_2008_generating_objectives.md
 
-README.md: src/license.html
+README.md: src/README.md src/license.html
 	pandoc -i src/README.md -o README.html --bibliography src/bibliography.bib
 	pandoc -i README.html src/license.html -o README.md -t markdown_github
 
-summaries/smo.md: src/license.html
+summaries/smo.md: src/smo.md src/license.html
 	pandoc -i src/smo.md -o smo.html --bibliography src/bibliography.bib
 	pandoc -i smo.html src/license.html -o summaries/smo.md -t markdown_github
 	
-summaries/jmd.md: src/license.html
+summaries/jmd.md: src/jmd.md src/license.html
 	pandoc -i src/jmd.md -o jmd.html --bibliography src/bibliography.bib
 	pandoc -i jmd.html src/license.html -o summaries/jmd.md -t markdown_github
 
