@@ -29,6 +29,9 @@ Comments
 
 -   There's nothing here about using modeling and optimization to expand the scope of the objectives.
 
+Bibliography
+============
+
 Bond, Samuel D., Kurt A. Carlson, and Ralph L. Keeney. 2008. “Generating Objectives: Can Decision Makers Articulate What They Want?” *Management Science* 54 (1): 56–70.
 
 License

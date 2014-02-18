@@ -496,3 +496,5 @@ FT
  *Tomasz Soko, George I. N. Rozvany Pages 853-857*
 
 FT
+
+# Bibliography

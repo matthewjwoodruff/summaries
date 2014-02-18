@@ -51,6 +51,9 @@ Technical Brief
 
 Simulation (CFD) based design optimization of a fuel injector. Using MOGA! DOE for factor screening. I'd like to read this one too. And it turns out it's an MS thesis by Mr. Archer. How convenient!
 
+Bibliography
+============
+
 Moore, Roxanne A. 2012. “Value-Based Global Optimization.” PhD thesis, Georgia Institute of Technology.
 
 License

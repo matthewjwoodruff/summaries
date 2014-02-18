@@ -25,3 +25,5 @@ Questionnaires about objectives, plus re-evaluation given a master list:
 
 * There's nothing here about using modeling and optimization to expand the scope of the objectives.
 
+# Bibliography
+

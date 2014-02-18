@@ -22,6 +22,9 @@ Conclusions
 
 -   At the time computational cost and precision of these approaches had not been systematically measured.
 
+Bibliography
+============
+
 Barthelemy, Jean-François M., and Raphael T. Haftka. 1993. “Approximation Concepts for Optimum Structural Design – a Review.” *Structural Optimization* 5 (3): 129–144.
 
 License
