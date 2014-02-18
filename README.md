@@ -1,7 +1,7 @@
-Summaries
-=========
+Literature Summaries
+====================
 
-Summaries of literature I've read.
+The markdown files in this repository are summaries of literature I've read. Mostly, these relate to optimization and decision-making. This includes multi-objective evolutionary algorithms (MOEAs), design optimization, and operations research.
 
 Citing
 ======
@@ -13,6 +13,13 @@ I strongly encourage you to read the originals --- I make no guarantee that my n
         author = {Matthew Woodruff},
         howpublished = {https://github.com/matthewjwoodruff/summaries},
         note = {Accessed: yyyy-mm-dd}
+
+Contents
+========
+
+[smo.md](smo.md) : Quick summaries from recent issues of *Structural and Multidisciplinary Optimization*.
+
+[jmd.md](jmd.md) : Quick summaries from recent issues of the *Journal of Mechanical Design*.
 
 License
 -------
