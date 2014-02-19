@@ -40,7 +40,7 @@ Fulltext access to JMD was broken for a while, so I downloaded (Moore 2012), abo
 
 *Christine A. Toh, Scarlett R. Miller and Gül E. Okudan Kremer* J. Mech. Des. 136, 041004 (2014) (); doi:10.1115/1.4026151
 
-Very much about the social issues around design. Which is great, actually, well done! Not my area, though, moving on.
+Social issues around design.
 
 Technical Brief
 ---------------
@@ -49,7 +49,9 @@ Technical Brief
 
 *J. R. Archer, Tiegang Fang, Scott Ferguson and Gregory D. Buckner* J. Mech. Des. 136, 044501 (2014) (); doi:10.1115/1.4026263
 
-Simulation (CFD) based design optimization of a fuel injector. Using MOGA! DOE for factor screening. I'd like to read this one too. And it turns out it's an MS thesis by Mr. Archer. How convenient!
+Simulation (CFD) based design optimization of a fuel injector. Using MOGA!? Oh, not actually. He's using the NSGA-II built in to the Matlab Global Optimization Toolbox. He calls it "the MOGA in the Matlab Global Optimization Toolbox," which is fair enough. Actually, this is quite a good example of somebody using search as a service, and I should cite it in the MOEA comparison paper.
+
+He's got function evaluations that run on the order of seven minutes. And, oh my. Oh my, oh my. How the function evaluations are carried out is something new. A master desktop machine is running Matlab, which is running NSGAII and creating designs to evaluate. It, and two other desktop machines then create Ansys input files for each design. These are then pushed to a HPC system using, get this, PuTTY plus AutoIT. The HPC system then does a bunch of Ansys evaluations in parallel. So as far as I can tell, they made a macro to copypaste between PuTTY and Matlab, and that's how design evaluations happen.
 
 Bibliography
 ============
