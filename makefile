@@ -1,4 +1,4 @@
-all: README.md summaries/smo.md summaries/jmd.md summaries/barthelemy_haftka_1993_approximation_concepts.md summaries/bond_2008_generating_objectives.md summaries/moore_2012_valuebased.md summaries/ejor.md
+all: README.md summaries/smo.md summaries/jmd.md summaries/barthelemy_haftka_1993_approximation_concepts.md summaries/bond_2008_generating_objectives.md summaries/moore_2012_valuebased.md summaries/ejor.md summaries/ormerod_2014_rationalism.md
 
 README.md: src/README.md src/license.html
 	pandoc -i src/README.md -o README.html --bibliography src/bibliography.bib
@@ -27,6 +27,10 @@ summaries/bond_2008_generating_objectives.md: src/license.html src/bibliography.
 summaries/moore_2012_valuebased.md: src/moore_2012_valuebased.md src/license.html
 	pandoc -i src/moore_2012_valuebased.md -o moore_2012_valuebased.html --bibliography src/bibliography.bib
 	pandoc -i moore_2012_valuebased.html src/license.html -o summaries/moore_2012_valuebased.md -t markdown_github
+
+summaries/ormerod_2014_rationalism.md: src/ormerod_2014_rationalism.md src/license.html
+	pandoc -i src/ormerod_2014_rationalism.md -o ormerod_2014_rationalism.html --bibliography src/bibliography.bib
+	pandoc -i ormerod_2014_rationalism.html src/license.html -o summaries/ormerod_2014_rationalism.md -t markdown_github
 
 clean:
 	rm -f README.md README.html
