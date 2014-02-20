@@ -19,11 +19,11 @@ Journal Scans
 
 These summarize recent issues of a journal.
 
-[smo.md](summaries/smo.md) : Quick summaries from recent issues of *Structural and Multidisciplinary Optimization*.
+[smo.md](summaries/smo.md) : *Structural and Multidisciplinary Optimization*.
 
-[jmd.md](summaries/jmd.md) : Quick summaries from recent issues of the *Journal of Mechanical Design*.
+[jmd.md](summaries/jmd.md) : *Journal of Mechanical Design*.
 
-[ejor.md](summaries/ejor.md) : Quick summaries from recent issues of the *European Journal of Operational Research*.
+[ejor.md](summaries/ejor.md) : *European Journal of Operational Research*.
 
 Individual Articles
 ===================

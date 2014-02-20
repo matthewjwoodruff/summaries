@@ -24,13 +24,13 @@ I strongly encourage you to read the originals --- I make no guarantee that my n
 These summarize recent issues of a journal.
 
 [smo.md](summaries/smo.md)
-: Quick summaries from recent issues of *Structural and Multidisciplinary Optimization*.
+: *Structural and Multidisciplinary Optimization*.
 
 [jmd.md](summaries/jmd.md)
-: Quick summaries from recent issues of the *Journal of Mechanical Design*.
+: *Journal of Mechanical Design*.
 
 [ejor.md](summaries/ejor.md) 
-: Quick summaries from recent issues of the *European Journal of Operational Research*.
+: *European Journal of Operational Research*.
 
 # Individual Articles
 
