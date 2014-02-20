@@ -29,6 +29,9 @@ These summarize recent issues of a journal.
 [jmd.md](summaries/jmd.md)
 : Quick summaries from recent issues of the *Journal of Mechanical Design*.
 
+[ejor.md](summaries/ejor.md) 
+: Quick summaries from recent issues of the *European Journal of Operational Research*.
+
 # Individual Articles
 
 These are summaries of individual articles.

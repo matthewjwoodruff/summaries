@@ -20,6 +20,12 @@ Authors in this journal do not appear to draw a firm distinction between multi-o
 
 While many of the papers here do acknowledge the need to find a set of Pareto-optimal solutions, they seem to stay in small numbers of objectives. Like two. I think this also results from their outlook and their methods, which are closely linked. The outlook is basically rational economics and game theory, which readily connects to the mathematical programming methods that also count Von Neumann as an influence. The outlook is most readily disposed to view tradeoffs as between two competing interests, and the methods have a strong curse of dimensionality when it comes to objectives anyway.
 
+Interestingly, but not too surprisingly, I don't think the optimization papers are very good in general. Manuel López-Ibáñez, Thomas Stützle wrote the one that stood out for me. Anytime behavior is an important consideration, and using hypervolume to measure it is a good idea.
+
+Production, manufacturing, and statistics was my favorite section. Innovative applications was all right, Stochastics and Statistics had one article that caught my eye, and Interfaces with other disciplines has the Ormerod article I want to come back to.
+
+Overall, there aren't as many ties to my work as I would hope for. I definitely won't spend much time looking at EJOR optimization papers in future. Maybe I'll come back and read more Production, manufacturing, and statistics papers. The real disconnect, particularly with my next paper, is that almost all of the optimization in this journal is mathematical programming. Mathematical programming is all about the tricks they use to squeeze the whole problem into a tractable mathematical form, and it's a world away from the models I'm interested in.
+
 Invited Review
 --------------
 
@@ -142,6 +148,9 @@ Statistics! An improved t-test for when the assumption of normality is wrong. Gr
 *Original Research Article* *Pages 671-686* *Marcin Kowalski, Jan Magott, Tomasz Nowakowski, Sylwia Werbińska-Wojciechowska*
 
 Very mathematical. Somewhat interesting to me because I've ridden on Polish tram systems and they did in fact seem quite reliable to me. They must be doing something right, although I'm troubled by the assumption that you have infinite repair facilities. That seems like hand-waving to get out of a mathematical difficulty.
+
+Decision Support
+----------------
 
 ### Two-worker blocking congestion model with walk speed m in a no-passing circular passage system
 
