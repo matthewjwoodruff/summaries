@@ -34,6 +34,8 @@ These are summaries of individual articles.
 
 [Bond et al, 2008](summaries/bond_2008_generating_objectives.md) : People are bad at expressing what it is they want, and they might not even know.
 
+[Ormerod, 2014](sumaries/ormerod_2014_rationalism.md) : Critical Rationalism, deriving from Popper's deductive rationalism, offers OR practitioners a way to say that their methods are rational and scientific.
+
 Citations Source
 ================
 
