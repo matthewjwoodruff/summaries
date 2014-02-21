@@ -41,7 +41,7 @@ Bibliography
 Ormerod, Richard. 2014. “Critical Rationalism in Practice: Strategies to Manage Subjectivity in OR Investigations.” *European Journal of Operational Research* 235 (3): 784–797.
 
 License
--------
+=======
 
 [![Creative Commons License](http://i.creativecommons.org/l/by-sa/3.0/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
 This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
