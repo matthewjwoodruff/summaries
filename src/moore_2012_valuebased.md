@@ -35,7 +35,22 @@ Here's where the utility functions come in: VGO takes a decision-based design pe
     In that case you're at the point where you could punch the numbers into a pocket calculator, because you've got so few design candidates under consideration.
     Anyway, when you have cheap models, why bother with utility functions?
     It seems like you should either make the case that you need utility functions because the model is too expensive, or you need lower-accuracy models because the model is too expensive.
-    I'm not sold on the need for both.
+
+OK, here's the point I've been missing: the metamodels are being dynamically updated.
+    (Duh, they're Kriging models and that's usually the point.)
+    You don't even have your metamodels without this GP based regression, so my either-or above is based on a bad premise.
+    So this gives me a great deal more respect for the conceptual coherence of the work being done here.
+    My only remaining objection is to measuring everything in dollars, which I still regard as myopic and unnecessary.
+
+I'd like to add that there's an important space for exploring conceptual-level design tradeoffs that's out of the scope of this dissertation.
+    In my view, maximizing VoI is a great idea for making the best of your limited computational budget, but the key problem is a *fixed* utility function.
+    I'd take a cue from decision-based design here and gather updates to the weights in the utility function based on designers' preference.
+    This is the attractor from ATSV, isn't it?
+    Not quite.
+    ATSV has one model at a time, and one level of optimization.
+    I'm talking about doing multi-objective optimization on the metamodel, picking a solution based on that, and using that to re-weight the utility function for the GP-based single-objective optimization.
+    What would happen as a result would not necessarily mean better solutions in that region, but more accurate modeling of that region.
+    It requires no cognitively-burdensome ranking, and it removes the stress of the chosen solution being a final decision.
 
 This connects to the point about the expense of optimization versus the cost of engineering time and the cost of prototyping.
     Engineering time just keeps getting more expensive, because people.
