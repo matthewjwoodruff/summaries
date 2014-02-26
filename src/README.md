@@ -23,11 +23,10 @@ I strongly encourage you to read the originals --- I make no guarantee that my n
 
 These summarize recent issues of a journal.
 
-[smo.md](summaries/smo.md)
-: Quick summaries from recent issues of *Structural and Multidisciplinary Optimization*.
-
-[jmd.md](summaries/jmd.md)
-: Quick summaries from recent issues of the *Journal of Mechanical Design*.
+* [Structural and Multidisciplinary Optimization](summaries/smo.md)
+* [Journal of Mechanical Design](summaries/jmd.md)
+* [European Journal of Operational Research](summaries/ejor.md) 
+* [Evolutionary Computation](summaries/ec.md)
 
 # Individual Articles
 
@@ -38,6 +37,9 @@ These are summaries of individual articles.
 
 [Bond et al, 2008](summaries/bond_2008_generating_objectives.md)
 : People are bad at expressing what it is they want, and they might not even know.
+
+[Ormerod, 2014](summaries/ormerod_2014_rationalism.md)
+: Critical Rationalism, deriving from Popper's deductive rationalism, offers OR practitioners a way to say that their methods are rational and scientific.
 
 # Citations Source
 
