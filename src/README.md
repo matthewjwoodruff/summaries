@@ -41,9 +41,17 @@ These are summaries of individual articles.
 [Ormerod, 2014](summaries/ormerod_2014_rationalism.md)
 : Critical Rationalism, deriving from Popper's deductive rationalism, offers OR practitioners a way to say that their methods are rational and scientific.
 
+[Saltelli, 2014](summaries/saltelli_2014_modelswrong.md)
+: Sensitivity auditing.  Systematic approach to looking for the agenda behind a model.
+
+[Wu and Azarm, 2001](summaries/azarm_2001_metrics.md)
+: Multi-objective optimization metrics for engineering design.  Valuable for its context in time (2001) and place (JMD).  Chapter 5 of [@coello_2007_moea] is pretty definitive if you just want to know about metrics.
+
 # Citations Source
 
 I've put some of the citations in a [BibTeX database](src/bibliography.bib).
+
+# Bibliography
 
 <!--
 vim:ts=4:sw=4:expandtab
