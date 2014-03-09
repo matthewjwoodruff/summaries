@@ -236,7 +236,7 @@ An ongoing dispute about flexible measures (whatever that means, exactly) in DEA
 Bibliography
 ============
 
-Fonseca, Carlos M, Luis Paquete, and Manuel López-Ibánez. 2006. “An Improved Dimension-Sweep Algorithm for the Hypervolume Indicator.” In *IEEE Congress on Evolutionary Computation, 2006. (CEC 2006)*, 1157–1163. IEEE.
+Fonseca, Carlos M, Luis Paquete, and Manuel López-Ibánez. 2006. “An Improved Dimension-sweep Algorithm for the Hypervolume Indicator.” In *IEEE Congress on Evolutionary Computation, 2006. (CEC 2006)*, 1157–1163. IEEE.
 
 License
 =======
