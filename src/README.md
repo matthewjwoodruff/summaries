@@ -45,7 +45,7 @@ These are summaries of individual articles.
 : Sensitivity auditing.  Systematic approach to looking for the agenda behind a model.
 
 [Wu and Azarm, 2001](summaries/azarm_2001_metrics.md)
-: Multi-objective optimization metrics for engineering design.  Valuable for its context in time (2001) and place (JMD).  Chapter 5 of [@coello_2007_moea] is pretty definitive if you just want to know about metrics.
+: Multi-objective optimization metrics for engineering design.  Valuable for its context in time (2001) and place (JMD).  Chapter 5 of [@coello_coello_2007_moea] is pretty definitive if you just want to know about metrics.
 
 # Citations Source
 

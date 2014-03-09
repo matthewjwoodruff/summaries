@@ -37,7 +37,7 @@ These are summaries of individual articles.
 
 [Saltelli, 2014](summaries/saltelli_2014_modelswrong.md) : Sensitivity auditing. Systematic approach to looking for the agenda behind a model.
 
-[Wu and Azarm, 2001](summaries/azarm_2001_metrics.md) : Multi-objective optimization metrics for engineering design. Valuable for its context in time (2001) and place (JMD). Chapter 5 of (**???**) is pretty definitive if you just want to know about metrics.
+[Wu and Azarm, 2001](summaries/azarm_2001_metrics.md) : Multi-objective optimization metrics for engineering design. Valuable for its context in time (2001) and place (JMD). Chapter 5 of (Coello Coello, Van Veldhuizen, and Lamont 2007) is pretty definitive if you just want to know about metrics.
 
 Citations Source
 ================
@@ -46,6 +46,8 @@ I've put some of the citations in a [BibTeX database](src/bibliography.bib).
 
 Bibliography
 ============
+
+Coello Coello, Carlos A, David A Van Veldhuizen, and Gary B Lamont. 2007. *Evolutionary Algorithms for Solving Multi-Objective Problems, Second Edition*. Kluwer Academic Publishers.
 
 License
 =======
