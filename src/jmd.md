@@ -18,6 +18,11 @@ One thing that seems to be lacking is much of a multi-objective approach.
     Design novelty shows up, so I can maybe work that angle.
     Maybe something like how your model affects the diversity of your designs?
 
+Something else I noticed --- JMD seems to have a pretty tight page limit.
+    Good.
+    I need to write a short paper for once, if I submit to JMD.
+    It's going to have to be tightly focused.
+
 # April 01, 2014 Volume 136, Issue 4
 
 # Summary

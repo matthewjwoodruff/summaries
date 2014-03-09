@@ -15,6 +15,8 @@ General Summary
 
 One thing that seems to be lacking is much of a multi-objective approach. Not that it's entirely absent (viz the Tech Brief from April), but it's not very sophisticated, nor is it widespread. SMO definitely seems like a more receptive venue for multi-objective optimization, at least if you're not doing Fuzzy Trusses, so that can't be how I frame the paper if I want to target JMD. Design novelty shows up, so I can maybe work that angle. Maybe something like how your model affects the diversity of your designs?
 
+Something else I noticed --- JMD seems to have a pretty tight page limit. Good. I need to write a short paper for once, if I submit to JMD. It's going to have to be tightly focused.
+
 April 01, 2014 Volume 136, Issue 4
 ==================================
 
@@ -156,7 +158,7 @@ I'm unlikely ever to be in a position to use graphical methods, but I think they
 Bibliography
 ============
 
-Moore, Roxanne A. 2012. “Value-Based Global Optimization.” PhD thesis, Georgia Institute of Technology.
+Moore, Roxanne A. 2012. “Value-based Global Optimization.” PhD thesis, Georgia Institute of Technology.
 
 License
 =======
