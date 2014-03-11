@@ -1,4 +1,4 @@
-all: README.md summaries/smo.md summaries/jmd.md summaries/barthelemy_haftka_1993_approximation_concepts.md summaries/bond_2008_generating_objectives.md summaries/moore_2012_valuebased.md summaries/ejor.md summaries/ormerod_2014_rationalism.md summaries/ec.md summaries/saltelli_2014_modelswrong.md summaries/azarm_2001_metrics.md
+all: README.md summaries/smo.md summaries/jmd.md summaries/barthelemy_haftka_1993_approximation_concepts.md summaries/bond_2008_generating_objectives.md summaries/moore_2012_valuebased.md summaries/ejor.md summaries/ormerod_2014_rationalism.md summaries/ec.md summaries/saltelli_2014_modelswrong.md summaries/mattson_2003_spareto.md summaries/azarm_2001_metrics.md
 
 README.md: src/README.md src/license.html src/bibliography.bib
 	pandoc -i src/README.md -o README.html --bibliography src/bibliography.bib
@@ -43,6 +43,10 @@ summaries/saltelli_2014_modelswrong.md: src/saltelli_2014_modelswrong.md src/lic
 summaries/azarm_2001_metrics.md: src/azarm_2001_metrics.md src/license.html
 	pandoc -i src/azarm_2001_metrics.md -o azarm_2001_metrics.html --bibliography src/bibliography.bib
 	pandoc -i azarm_2001_metrics.html src/license.html -o summaries/azarm_2001_metrics.md -t markdown_github
+
+summaries/mattson_2003_spareto.md: src/mattson_2003_spareto.md src/license.html
+	pandoc -i src/mattson_2003_spareto.md -o mattson_2003_spareto.html --bibliography src/bibliography.bib
+	pandoc -i mattson_2003_spareto.html src/license.html -o summaries/mattson_2003_spareto.md -t markdown_github
 
 clean:
 	rm -f README.md README.html
