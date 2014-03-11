@@ -38,6 +38,9 @@ These are summaries of individual articles.
 [Bond et al, 2008](summaries/bond_2008_generating_objectives.md)
 : People are bad at expressing what it is they want, and they might not even know.
 
+[Mattson and Messac, 2003](summaries/mattson_2003_spareto.md)
+: The s-Pareto frontier, very similar concept to $\varepsilon$ dominance.  Definitely worth a look, designed to address decision-making needs rather than optimization needs.  Could be used together with $\varepsilon$ dominance.
+
 [Ormerod, 2014](summaries/ormerod_2014_rationalism.md)
 : Critical Rationalism, deriving from Popper's deductive rationalism, offers OR practitioners a way to say that their methods are rational and scientific.
 
