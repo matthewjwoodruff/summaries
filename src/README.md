@@ -37,7 +37,11 @@ These summarize recent issues of a journal.
 
 I summarize papers that originate from the same group of people.
 
-* [University of Southamption](summaries/soton.md) surrogate modeling people.
+*   [University of Southamption](summaries/soton.md) surrogate modeling people.
+    Some multi-objective optimization.
+*   Papers published with [Christine Shoemaker](summares/shoemaker.md) in the 
+    last year or so seem to focus on two-phase surrogate optimization with RBF.
+    I found no indication of multi-objective approaches.
 
 # Individual Articles
 
