@@ -68,7 +68,7 @@ MO optimization of an electron gun is given as an example.
     Some others as well --- apparently optimization is a hot topic in electromagnetics.
     (Or it was in 2007, anyhow.)
 
-# Multi-Fidelity Optimization via Surrogate Modelling
+# Multi-Fidelity Optimization via Surrogate Modeling
  *Alexander I. J. Forrester and Andra ́s So ́ bester and Andy J. Keane*
 
 This is from Proc. R. Soc. A (2007) 463, 3251–3269.
@@ -77,6 +77,7 @@ Co-kriging based wing optimization.
     Other than the example, seems pretty similar to, if more focused than, the "Recent Advances" paper.
 
 
+# Bibliography
  
 
 
