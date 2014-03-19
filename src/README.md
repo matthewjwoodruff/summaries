@@ -33,6 +33,12 @@ These summarize recent issues of a journal.
 * [European Journal of Operational Research](summaries/ejor.md) 
 * [Evolutionary Computation](summaries/ec.md)
 
+# Related Researchers
+
+I summarize papers that originate from the same group of people.
+
+* [University of Southamption](summaries/soton.md) surrogate modeling people.
+
 # Individual Articles
 
 These are summaries of individual articles.

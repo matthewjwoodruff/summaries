@@ -1,4 +1,4 @@
-all: README.md summaries/smo.md summaries/jmd.md summaries/barthelemy_haftka_1993_approximation_concepts.md summaries/bond_2008_generating_objectives.md summaries/moore_2012_valuebased.md summaries/ejor.md summaries/ormerod_2014_rationalism.md summaries/ec.md summaries/saltelli_2014_modelswrong.md summaries/mattson_2003_spareto.md summaries/azarm_2001_metrics.md summaries/soton.md
+all: README.md summaries/smo.md summaries/jmd.md summaries/barthelemy_haftka_1993_approximation_concepts.md summaries/bond_2008_generating_objectives.md summaries/moore_2012_valuebased.md summaries/ejor.md summaries/ormerod_2014_rationalism.md summaries/ec.md summaries/saltelli_2014_modelswrong.md summaries/mattson_2003_spareto.md summaries/azarm_2001_metrics.md summaries/soton.md summaries/shoemaker.md
 
 README.md: src/README.md src/license.html src/bibliography.bib
 	pandoc -i src/README.md -o README.html --bibliography src/bibliography.bib
@@ -23,6 +23,10 @@ summaries/ec.md: src/ec.md src/license.html src/bibliography.bib
 summaries/soton.md: src/soton.md src/license.html src/bibliography.bib
 	pandoc -i src/soton.md -o soton.html --bibliography src/bibliography.bib
 	pandoc -i soton.html src/license.html -o summaries/soton.md -t markdown_github
+
+summaries/shoemaker.md: src/shoemaker.md src/license.html src/bibliography.bib
+	pandoc -i src/shoemaker.md -o shoemaker.html --bibliography src/bibliography.bib
+	pandoc -i shoemaker.html src/license.html -o summaries/shoemaker.md -t markdown_github
 
 summaries/barthelemy_haftka_1993_approximation_concepts.md: src/license.html src/bibliography.bib src/barthelemy_haftka_1993_approximation_concepts.md
 	pandoc -i src/barthelemy_haftka_1993_approximation_concepts.md -o barthelemy_haftka_1993_approximation_concepts.html --bibliography src/bibliography.bib
