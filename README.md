@@ -14,6 +14,11 @@ I strongly encourage you to read the originals --- I make no guarantee that my n
         howpublished = {https://github.com/matthewjwoodruff/summaries},
         note = {Accessed: yyyy-mm-dd}
 
+Corrections
+===========
+
+If I've misunderstood a paper, please let me know by filing an issue through the issue tracker. (You may need to create a free GitHub account.)
+
 Journal Scans
 =============
 
