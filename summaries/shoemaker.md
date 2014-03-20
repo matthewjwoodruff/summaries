@@ -6,7 +6,7 @@ These papers are listed on her Cornell website.
 Summary
 =======
 
-Heavy focus on two-phase surrogate-based optimization with RBF. Which I think is a pretty good technique. However, I see no evidence of multiobjective work. The closest I even saw to bi-objective optimization was a paper I didn't summarize, the Flicker paper, where they optimize performance constrained by power. Well, there's also Müller's SO-I paper, which at least has constraint handling for expensive constraints. I need to scan some more of the titles, but I don't think this group touches multi-objective optimization.
+Heavy focus on two-phase surrogate-based optimization with RBF. Which I think is a pretty good technique. However, I see no evidence of multiobjective work. The closest I even saw to bi-objective optimization was a paper I didn't summarize, the Flicker paper, where they optimize performance constrained by power. Well, there's also Müller's SO-I paper, which at least has constraint handling for expensive constraints. I need to scan some more of the titles, but I don't think this group touches multi-objective optimization. Based on the short bios of her students, they're all doing surrogate modeling for computationally expensive black-box functions. One other thing that comes up is a complementary emphasis on parallel processing. (Although I think parallel processing more naturally complements multiobjective approaches because you've got a Pareto set to sample rather than a single point.)
 
 Impact of human activities on stream flow in the Biliu River basin, China
 =========================================================================

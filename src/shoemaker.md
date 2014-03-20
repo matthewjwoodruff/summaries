@@ -14,6 +14,13 @@ Heavy focus on two-phase surrogate-based optimization with RBF.
         handling for expensive constraints.
     I need to scan some more of the titles, but I don't think this group
         touches multi-objective optimization.
+    Based on the short bios of her students, they're all doing surrogate
+        modeling for computationally expensive black-box functions.
+    One other thing that comes up is a complementary emphasis on parallel
+        processing.
+    (Although I think parallel processing more naturally complements
+        multiobjective approaches because you've got a Pareto set to
+        sample rather than a single point.)
 
 # Impact of human activities on stream flow in the Biliu River basin, China
 
