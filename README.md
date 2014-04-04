@@ -54,6 +54,8 @@ These are summaries of individual articles.
 
 [Wu and Azarm, 2001](summaries/azarm_2001_metrics.md) : Multi-objective optimization metrics for engineering design. Valuable for its context in time (2001) and place (JMD). Chapter 5 of (Coello Coello, Van Veldhuizen, and Lamont 2007) is pretty definitive if you just want to know about metrics.
 
+[Zavala et al., 2014](summaries/zavala_2014_moea.md) : A review spanning 1993-2013, of MOEAs used in structural optimization. *Spoiler alert*: NSGAII gets used the most.
+
 Citations Source
 ================
 
