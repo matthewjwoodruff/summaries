@@ -21,9 +21,10 @@ done their job and suggested line edits.
 
 I wonder if it's hard for Coello's co-authors to write a section
 introducing multiobjective optimization, including definitions for
-Pareto dominance and Pareto optimality, without accidentally
-plagiarizing him.
-    The imprecision of this statement is problematic, "in general, it
+Pareto dominance and Pareto optimality, when it's all been done so
+thoroughly in his book already.
+
+The imprecision of this statement is problematic: "in general, it
     does not make sense to search for a huge number of Pareto optimal
     solutions, since normally a reasonably low number of solutions is
     enough."
@@ -48,7 +49,11 @@ The survey covers MOEAs, ACO, scatter search, SA, and PSO.
     binary-encoding a real-valued problem, because combinatorial
     problems are way harder than continuous ones.
 
-They list a variety of standard structural optimization problems.
+They list a variety of standard structural optimization problems, and
+tabulate the studies based on them.
+    NSGAII is the most widely used, and DE has not been tried.
+    They call for parallelism, surrogate modeling, and the
+    incorporation of user preferences.
 
 # Bibliography
 
