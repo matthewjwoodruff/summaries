@@ -158,7 +158,7 @@ I'm unlikely ever to be in a position to use graphical methods, but I think they
 Bibliography
 ============
 
-Moore, Roxanne A. 2012. “Value-based Global Optimization.” PhD thesis, Georgia Institute of Technology.
+Moore, Roxanne A. 2012. “Value-Based Global Optimization.” PhD thesis, Georgia Institute of Technology.
 
 License
 =======
