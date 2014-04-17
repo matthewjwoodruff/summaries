@@ -24,13 +24,29 @@ This idea is really simple.
     Then do your global sensitivity analysis on the surrogate model.
 
 [@alis_2001_rshdmr] discusses how to create the surrogate.
-    [@
+    [@li_2010_rshdmr] splits sensitivity indices in three parts: structural,
+    correlative, and total.
     [@saltelli_2008_primer] mentions a similar method, cut-HDMR, that
     relies on structured sampling.
+    [@forrester_2009_surrogate] has a very detailed discussion of surrogate
+    modeling in optimization, much of which also applies to global sensitivity
+    analysis.
+    On a related note, Borg's search operator probabilities provide a basic
+    indication of model structure without producing sensitivity indices for
+    particular variables.
 
 ## Density Based Methods  
 
-Plitsche
+[@plischke_2013_density] present an alternative approach that
+is not based on surrogate modeling.
+    I don't fully understand it.
+    It appears to work by partitioning each axis and
+    comparing the output conditional to membership in that
+    partition with the unconditional output.
+    It requires kernel (Gaussian, boxed, or Epanechnikov) density
+    approximation to produce this estimate.
+    (And that sounds a lot like surrogate modeling to me.)
+    This method produces first order importance measures.
 
 # Bibliography
  
