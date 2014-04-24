@@ -16,6 +16,8 @@ The discussion of decision-making is very good and relates quite closely to MOVA
 Other s-Pareto Papers
 =====================
 
+The usage scenarios paper (Curtis, Hancock, and Mattson 2013) talks about formulation space exploration in an s-Pareto context.
+
 An earlier conference paper, (Christopher A Mattson and Messac 2002), is very similar but adds uncertainty. A paper in EO (Christopher A Mattson, Mullur, and Messac 2004) emphasizes "smart" frontiers that have variable density, with the most points in the regions of greatest tradeoff. It uses Practically Insignificant Tradeoff (PIT) to eliminate extra points. This is very similar to *ɛ* dominance, except you're culling from what should already be an evenly-distributed set, as produced by the normal constraint method, rather than incorporating the filter into optimization. In fact, these two approaches are compatible: you could do PIT elimination of points after the fact, and it's entirely possible that it would cull more points even if you used the same *ɛ*s. There are two points in my *ɛ* figure that would be de-duplicated under the PIT criteria.
 
 The bottom line for me is that the PIT filter makes more sense than *ɛ* dominance from a pure decision-making standpoint, because *ɛ* dominance can give you two points that are basically indistinguishable and PIT won't. Unfortunately, if you tried to apply PIT *during* optimization, you'd violate the diagonal-positive requirement by introducing an inconsistent dominance relation. I have an idea for harmonizing the methods:
@@ -27,7 +29,9 @@ The bottom line for me is that the PIT filter makes more sense than *ɛ* dominan
 Bibliography
 ============
 
-Mattson, Christopher A, and Achille Messac. 2002. “A Non-deterministic Approach to Concept Selection Using S-Pareto Frontiers.” In *ASME 2002 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference*, 859–870. American Society of Mechanical Engineers.
+Curtis, Shane K, Braden J Hancock, and Christopher A Mattson. 2013. “Usage Scenarios for Design Space Exploration with a Dynamic Multiobjective Optimization Formulation.” *Research in Engineering Design* 24 (4): 395–409.
+
+Mattson, Christopher A, and Achille Messac. 2002. “A Non-Deterministic Approach to Concept Selection Using S-Pareto Frontiers.” In *ASME 2002 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference*, 859–870. American Society of Mechanical Engineers.
 
 Mattson, Christopher A, Anoop A Mullur, and Achille Messac. 2004. “Smart Pareto Filter: Obtaining a Minimal Representation of Multiobjective Design Space.” *Engineering Optimization* 36 (6): 721–740.
 

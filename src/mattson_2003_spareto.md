@@ -29,6 +29,8 @@ The discussion of decision-making is very good and relates quite closely to MOVA
 
 # Other s-Pareto Papers
 
+The usage scenarios paper [@curtis_2013_exploration] talks about formulation space exploration in an s-Pareto context.
+
 An earlier conference paper, [@mattson_2002_nondeterministic], is very similar but adds uncertainty.
     A paper in EO [@mattson_2004_spareto] emphasizes "smart" frontiers that have variable density, with the most points in the regions of greatest tradeoff.
     It uses Practically Insignificant Tradeoff (PIT) to eliminate extra points.
